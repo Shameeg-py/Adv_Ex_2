@@ -2,18 +2,12 @@
 # Advanced Python Challenge: Exercise 02 Operators and Conditionals
 # -------------------------------------------
 
-# Overview:
-# This exercise challenges your understanding of Python operators, conditionals, and input handling.
-# Complete each section with the required logic, using good variable names and adding comments where necessary.
 
 # -------------------------------------------
 # Question 1: Multi-Step Arithmetic Operations
 # -------------------------------------------
 
-# Task:
-# Use compound arithmetic operators to modify values of a, b, and c.
-# Then calculate the square root of the sum of their squares.
-# Tip: Use the math module.
+
 
 import math
 
@@ -41,15 +35,7 @@ print(rounded_root)
 # Question 2: Complex Conditional Evaluation
 # -------------------------------------------
 
-# Task:
-# Ask the user to input three integers (x, y, z).
-# Then evaluate and print whether:
-# - x is even
-# - y is positive
-# - z is between 10 and 50
-# Use logical operators to combine the conditions.
 
-# Tip: Use and/or to join conditions.
 
 # TODO: Input x, y, z
 x= int(input("Please input a value for x: "))
@@ -85,14 +71,7 @@ print(final_condition)
 # Question 3: Grading with Adjustments
 # -------------------------------------------
 
-# Task:
-# Ask the user for their base score, then apply:
-# - bonus points (+5)
-# - late penalty (-10)
-# Final score must not exceed 100 or drop below 0.
-# Then assign a grade.
 
-# Tip: Use min() and max() to constrain the score.
 
 # TODO: Input score from user
 base_score= int(input("Please input your base score: "))
@@ -129,12 +108,7 @@ print("Grade:", Grade)
 # Question 4: Advanced Calculator
 # -------------------------------------------
 
-# Task:
-# Ask the user to input two numbers and an operation (+, -, *, /, %, **).
-# Handle division/modulus by zero with error checking.
-# Perform the operation and print the result.
 
-# Tip: Use try-except and elif branches for each operation.
 
 # TODO: Input num1, num2
 num1= int(input("Please input a value for num1: "))
